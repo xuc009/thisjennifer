@@ -1,0 +1,68 @@
+html{
+  color:blanchedalmond;
+}
+textarea{
+  font-family: monospace;
+  line-height: .4rem;
+}
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  z-index: -1;
+  background-color: blue;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+#nav{
+  position: fixed;
+  bottom:10px;
+  right:10px;
+}
+button{
+  padding-right: 18px;
+  padding-left: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+#images{
+  position: relative;
+  top:32vh;
+  left: 15%;;
+}
+#next{
+}
+
+#index{
+  text-align: right;
+  color:whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:25px;
+  /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 1); */
+  /* margin-bottom: 10px; */
+  display:none;
+  background-color: 2px 2px 8px rgba(0, 0, 0, .3);
+  overflow: scroll;
+  height: 40vh;
+  right:5px;
+  padding-right:10px;
+}
+
+li{
+  list-style-type: none;
+}
+
+li:hover{
+  text-decoration: underline;
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, .3); */
+    cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
